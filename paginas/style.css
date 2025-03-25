@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    background-image: url(../imagenes/descarga.gif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fec9d2;
+    padding: 10px 20px;
+}
+
+header img {
+    width: 100px;
+    transition: transform 0.3s ease-in-out;
+}
+
+header img:hover {
+    transform: scale(1.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: #db5275;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    text-shadow: 0px 0px 8px #db5275;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 30px;
+    color: #025548;
+    margin: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.seccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.cuadroprin {
+    width: 80%;
+    background-color: #fff;
+    border: 2px solid #db5275;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cuadroprin:hover {
+    transform: scale(1.05);
+}
+
+.cuadroprin img {
+    width: 150px;
+    margin: 10px 0;
+}
+
+.cuadroprin a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #db5275;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cuadroprin a:hover {
+    background-color: #025548;
+}
+
+.cuadros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cuadros div {
+    background-color: #fff;
+    border: 2px solid #fec9d2;
+    border-radius: 10px;
+    width: 45%;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cuadros div:hover {
+    transform: scale(1.05);
+}
+
+.cuadros div img {
+    width: 100px;
+    margin: 10px 0;
+}
+
+footer {
+    font-size: 18px;
+    line-height: 1.4;
+    color: white;
+    background-color: #025548;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
